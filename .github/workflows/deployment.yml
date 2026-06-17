@@ -1,6 +1,6 @@
 name: DEPLOY PROJECT
 
-on: push
+on: [push, workflow_dispatch]
 
 jobs:
   test:
